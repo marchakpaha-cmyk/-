@@ -4,7 +4,7 @@ import dash_leaflet as dl
 from transport_data import TRANSPORT_DB
 
 app = dash.Dash(__name__)
-server = app.server  # <--- ВОТ ЭТУ СТРОКУ ДОБАВЬ
+server = app.server
 
 # ... далее весь твой старый код ...
 
