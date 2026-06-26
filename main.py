@@ -4,6 +4,9 @@ import dash_leaflet as dl
 from transport_data import TRANSPORT_DB
 
 app = dash.Dash(__name__)
+server = app.server  # <--- ВОТ ЭТУ СТРОКУ ДОБАВЬ
+
+# ... далее весь твой старый код ...
 
 # Стили в духе Metro UI
 METRO_COLORS = {'bg': '#111111', 'surface': '#252525', 'accent': '#0078D7', 'text': '#FFFFFF'}
